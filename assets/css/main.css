@@ -9,9 +9,17 @@ body {
   padding: 3px;
 }
 
+.footer-list__button:hover {
+  background-color: #ffffff !important;
+}
+
 .footer-list__input {
   border-radius: 5px;
   font-family: "poppins";
+}
+
+.footer-list__input:focus {
+  background-color: #ffaf6d;
 }
 
 .navbar {
