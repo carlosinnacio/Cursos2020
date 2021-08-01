@@ -1,6 +1,6 @@
 .navbar {
   background-color: $black;
-  color: $white;
+  color: $white !important;
   font-family: $poppins;
   font-weight: $regular;
   display: grid;
@@ -47,11 +47,6 @@
 .nav-link {
   color: $white;
 }
-
-.navbar-toggler {
-  span{
-    color: $white;
-    fill: $white;
-  }
-  color: $white !important;
+.nav-item {
+  text-align: center;
 }
