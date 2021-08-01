@@ -1,0 +1,36 @@
+.curso{
+    border: solid 1px $charcoal;
+    margin: 10px;
+}
+
+
+.curso-top__img {
+    width: 100%;
+}
+
+.curso-text *{
+    margin: 10px;
+}
+
+.curso-text {
+    h4 {
+        font-size: $large;
+    }
+    p {
+        font-size: $small;
+        color: $charcoal;
+        line-height: 25px;
+        text-align: justify;
+    }
+    h5{
+        font-size: $medium;
+    }
+}
+
+.curso-text__logos {
+
+    i{
+        display: inline-block;
+        margin: 3px;
+    }
+}

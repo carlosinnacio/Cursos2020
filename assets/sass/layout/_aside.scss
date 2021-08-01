@@ -1,0 +1,42 @@
+.cursos-top {
+    text-align: center;
+    p {
+        text-align: justify;
+        margin: 10px;
+        line-height: 25px;
+        font-size: $small;
+        color: $charcoal;
+    }
+}
+
+.cursos-top__img{
+    width: 200px;
+    border-radius: 100px;
+    border: solid 1px $black;
+    margin-top: 15px;
+}
+
+.cursos-top__icons {
+    i{
+        margin: 5px;
+    }
+}
+
+.cursos-body {
+    h4{
+        width: 100%;
+        background-color: $sable;
+        color: $white;
+        text-align: center;
+        font-weight: $bold;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+.cursos-body__bottom {
+    text-align: center;
+    .cursos-body__bottom-img{
+        width: 350px;
+    }
+}
