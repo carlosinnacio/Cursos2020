@@ -6,4 +6,8 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+    .navbar-toggler {
+        text-align: right;
+        margin: 0;
+    }
 }

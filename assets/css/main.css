@@ -77,6 +77,11 @@ body {
   text-align: center;
 }
 
+.navbar-icon {
+  color: #ffffff;
+  margin: 0;
+}
+
 .hero-section {
   background-repeat: no-repeat;
   background-position-x: center;
@@ -213,6 +218,11 @@ body {
   .column {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .navbar-toggler {
+    text-align: right;
+    margin: 0;
   }
 }
 
